@@ -1,0 +1,123 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    color: #242222;
+    padding: 15px 0;
+    position: relative; /* Added to position name correctly */
+    
+}
+
+h2 {
+    color: #363131; /* Text color */
+    font-weight: 150;
+    font-size: 20px;
+    letter-spacing: 2px;
+    position: relative; /* Added to position name correctly */
+
+}
+
+.name-container {
+    position: absolute; /* Position it absolutely */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    color: #242222; /* Text color */
+    font-size: 20px; /* Adjust as needed */
+    letter-spacing: 0.3px; /* Spacing between letters */
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+
+.name-container span {
+    display: block; /* Stacks the spans vertically */
+    margin: 0; /* Remove default margin */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-end;
+}
+
+nav a {
+    color: #161308;
+    text-decoration: none;
+    padding: 1px;
+    margin: 0 10px;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+}
+
+nav a span {
+    display: block;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 200px;
+}
+
+.image-container {
+    position: relative; /* Enables positioning of children */
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hides overflow content */
+    /* margin-top: 85px; */
+}
+
+.image-container img {
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.image-container:hover img {
+    opacity: 0; /* Hide original image on hover */
+}
+
+.image-container::after {
+    content: ''; /* Empty content for pseudo-element */
+    background-image: url('Images/Color of Skin/Bath_hor.png'); /* Hover image */
+    background-size: cover; /* Cover the whole container */
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    width: 85%; /* Full width */
+    height: 85%; 
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.89s ease; /* Smooth transition */
+}
+
+.image-container:hover::after {
+    opacity: 1; /* Show hover image on hover */
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgb(133, 133, 133);
+    text-align: center;
+    padding: 2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}

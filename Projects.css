@@ -1,0 +1,164 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    color: #1a1212;
+    padding: 20px 0;
+    position: relative; /* Added to position name correctly */
+    
+}
+
+.name-container {
+    position: absolute; /* Position it absolutely */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    color: #242222; /* Text color */
+    font-size: 20px; /* Adjust as needed */
+    letter-spacing: 0.3px; /* Spacing between letters */
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+
+.name-container span {
+    display: block; /* Stacks the spans vertically */
+    margin: 0; /* Remove default margin */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-end;
+}
+
+nav a {
+    color: #161308;
+    text-decoration: none;
+    padding: 1px;
+    margin: 0 10px;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+}
+
+nav a span {
+    display: block;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: fit-content;
+    margin: 20px auto;
+    padding: 0 20px;
+    flex-grow: 1; /* Allow container to grow and push footer down */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+.left-column {
+    width: 25%; /* Narrow column for project description */
+    padding-right: 100px;
+    padding-left: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left-column p {
+    writing-mode: horizontal-tb; /* Standard horizontal text */
+    transform: none; /* Remove the rotation */
+    color: #929292;
+    font-size: 12px;
+    margin-top: 0; /* Remove default top margin */
+    margin-left: -55px;
+    letter-spacing: 1.5px;
+    line-height: 1.25;
+    text-align: justify; /* Justify the text */
+    hyphens: auto; /* Enable automatic hyphenation */
+    word-wrap: break-word; /* Allow long words to break */
+}
+
+.right-column {
+    width: 85%; /* Wider column for gallery */
+    padding-right: 65px;
+    padding-left: 10px;
+    justify-content: flex-end; /* Align to the end of the container */
+    align-items: flex-end; /* Align items to the right */
+}
+
+.horizontal-image {
+    grid-column: span 2; /* This image spans two columns */
+    width: 100%; /* Ensure it fills the full width */
+    padding-right: 200px;
+}
+
+.image-with-border {
+    border: 25px solid rgb(207, 206, 199); /* Gray border with 2px width */
+    /* padding: 5px; Optional: Add padding inside the border */
+}
+
+.interhuman-border {
+    border: 55px solid rgb(183, 182, 191) ;  /* Gray border with 2px width */
+    /* box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.6),
+                0 0 10px 2px rgba(0, 0, 0, 0.4),
+                0 0 15px 3px rgba(0, 0, 0, 0.2);
+    filter: contrast(110%); */
+    /* padding: 5px; Optional: Add padding inside the border */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 100px;
+}
+
+.gallery img {
+    width: 95%; /*default width */
+    height: auto;
+    justify-self: end;
+}
+
+.gallery-header {
+    text-align: left; /* Center the header text */
+    font: arial;
+    font-weight: 150;
+    margin-top: 65px; /* Add space above the new section */
+    margin-bottom: 45px; /* Add space below the header */
+    font-size: 15px;
+    color: #c6c3c3; /* Style the header text */
+    letter-spacing: 3px;
+}
+
+.second-gallery {
+    display: grid; /* Same grid structure as the first gallery */
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 100px; /* Same spacing as above */
+}
+
+.second-gallery img {
+    width: 95%; /* Same width as first gallery */
+    height: auto;
+    justify-self: end;
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgb(133, 133, 133);
+    text-align: center;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
