@@ -3,12 +3,12 @@ body {
     font-family: Arial;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #070303;
 }
 
 header {
     background-color: #ffffff;
-    color: #1a1212;
+    color: #0f0505;
     padding: 20px 0;
     position: relative; /* Added to position name correctly */
     
