@@ -18,8 +18,8 @@ header {
     position: absolute; /* Position it absolutely */
     top: 20px; /* Distance from the top */
     left: 20px; /* Distance from the left */
-    color: #242222; /* Text color */
-    font-size: 20px; /* Adjust as needed */
+    color: #302f29; /* Text color */
+    font-size: 25px; /* Adjust as needed */
     letter-spacing: 0.3px; /* Spacing between letters */
     margin-bottom: 100px;
     padding-top: 20px;
@@ -100,7 +100,6 @@ nav a span {
 
 .horizontal-image {
     grid-column: span 2; /* This image spans two columns */
-    width: 100%; /* Ensure it fills the full width */
     padding-right: 200px;
 }
 
