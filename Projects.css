@@ -18,9 +18,9 @@ header {
     position: absolute; /* Position it absolutely */
     top: 20px; /* Distance from the top */
     left: 20px; /* Distance from the left */
-    color: #302f29; /* Text color */
+    color: #484740; /* Text color */
     font-size: 25px; /* Adjust as needed */
-    letter-spacing: 0.3px; /* Spacing between letters */
+    letter-spacing: 5px; /* Spacing between letters */
     margin-bottom: 100px;
     padding-top: 20px;
 }
