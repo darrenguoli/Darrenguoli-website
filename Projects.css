@@ -63,6 +63,7 @@ nav a span {
     max-width: fit-content;
     margin: 20px auto;
     padding: 20px;
+    padding-top: 50px;
     flex-grow: 1; /* Allow container to grow and push footer down */
     overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
