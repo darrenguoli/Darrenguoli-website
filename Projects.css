@@ -71,7 +71,7 @@ nav a span {
 
 .left-column {
     flex: 1;
-    width: 10%; /* Narrow column for project description */
+    width: 20%; /* Narrow column for project description */
     margin-top: 120px;
     padding-left: 100px; 
     display: flex;
