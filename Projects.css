@@ -62,15 +62,18 @@ nav a span {
     justify-content: space-between;
     max-width: fit-content;
     margin: 20px auto;
-    padding: 0 20px;
+    padding: 20px;
     flex-grow: 1; /* Allow container to grow and push footer down */
     overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
 
+
+
 .left-column {
-    width: 25%; /* Narrow column for project description */
-    padding-right: 100px;
-    padding-left: 120px;
+    flex: 1;
+    width: 10%; /* Narrow column for project description */
+    margin-top: 120px;
+    padding-left: 100px; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -91,10 +94,12 @@ nav a span {
 }
 
 .right-column {
+    display:flex;
+    flex: 2;
     width: 85%; /* Wider column for gallery */
     padding-right: 65px;
     padding-left: 10px;
-    justify-content: flex-end; /* Align to the end of the container */
+    justify-content: flex-end; 
     align-items: flex-end; /* Align items to the right */
 }
 
