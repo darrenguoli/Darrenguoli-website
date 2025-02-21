@@ -21,8 +21,8 @@ body {
     bottom: 0;
     width: calc(100% - 20px);
     height: 1px; /* Adjust thickness of the line */
-    background: radial-gradient(to right, #333333 10%, rgba(51, 51, 51, 0)); /* Dark to transparent */
-    transform: rotate(-5deg); /* Adjust angle */
+    background: linear-gradient(to right, #333333 80%, rgba(51, 51, 51, 10)); /* Dark to transparent */
+    transform: rotate(-10deg); /* Adjust angle */
     transform-origin: left bottom;
     z-index: 0; /* Ensures it's behind the nav */
 }
@@ -98,6 +98,14 @@ body {
 }
 .main-image:hover {
     opacity: 0.8; /* Subtle effect when hovering */
+}
+.main-image-description {
+    margin-top: 3px;  
+    text-align: left;         
+    font-size: 14px;         
+    color: #878181;       
+    font-style: italic;
+    width: 100%;
 }
 
 
