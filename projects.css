@@ -80,10 +80,10 @@ body {
 }
 .gallery-image {
     width: 60%;                /* Adjust width as needed */
-    max-width: 600px;          
+    max-width: 450px;          
     height: auto;              /* Maintains the aspect ratio */
     display: block;
-    transition: transform 0.3s ease-in-out;  /* Smooth hover zoom effect */
+    align-content: center;
 }
 .gallery-description {
     margin-top: 3px;           /* Space between image and text */
