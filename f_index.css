@@ -33,7 +33,7 @@ body {
 .name-container {
     display: block;
     font-size: 26px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.5px;
     cursor: pointer;
     transition: color 0.3s ease;
 }
