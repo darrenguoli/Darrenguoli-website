@@ -23,6 +23,8 @@ body {
     display: block; /* Ensures it behaves as a block element */
     color: #222; /* Adjust to fit your theme */
     text-align: left;
+    text-decoration: none;
+    color: inherit;
     transition: all 0.3s ease-in-out;
     font-size: 20px;
     font-weight: 475;
