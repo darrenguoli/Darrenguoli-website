@@ -21,8 +21,12 @@ body {
 }
 .name-container a {
     display: block; /* Ensures it behaves as a block element */
-    text-decoration: none;
-    color: inherit;
+    color: #222; /* Adjust to fit your theme */
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: 475;
+
 }
 .name-container {
     display: block;
@@ -35,12 +39,12 @@ body {
     color: #666;
 }
 
+/* NAV CONTAINER */
 .nav-container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-
 .nav-container a {
     text-decoration: none;
     font-size: 14px;
@@ -55,13 +59,8 @@ body {
     max-width: 90%;
     display: block;
 }
-
 .nav-container a:hover {
     color: #fff;
-}
-
-.name-container span:hover {
-    color: #666;
 }
 
 .content {
