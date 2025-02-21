@@ -97,6 +97,42 @@ body {
     width: 100%;
 }
 
+/* HORIZONTAL GALLERY */
+.horizontal-gallery-container {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap;
+    gap: 20px; /* Adds space between items */
+    padding: 10px;
+    scrollbar-width: thin; /* Customizes scrollbar for Firefox */
+    scrollbar-color: #acadb8 #f5f5f5; /* Custom scrollbar color */
+}
+.horizontal-gallery-container::-webkit-scrollbar {
+    height: 8px; /* Adjusts scrollbar height */
+}
+.horizontal-gallery-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+.gallery-item-horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns text with the image */
+    flex: 0 0 auto; /* Prevents items from stretching */
+    width: 250px; /* Adjust this for image size */
+}
+.gallery-item-horizontal img {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+}
+.gallery-item-horizontal .description {
+    margin-top: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+
 
 /* MAIN IMAGE CONTAINER */
 .main-image-container {
