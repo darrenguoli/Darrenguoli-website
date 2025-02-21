@@ -73,7 +73,7 @@ body {
 }
 .main-image {
     width: 50vw;         /* 50% of viewport width */
-    max-width: 100%;     /* Prevents overflow on small screens */
+    max-width: 60%;     /* Prevents overflow on small screens */
     height: auto;        /* Maintains aspect ratio */
     transition: opacity 0.3s ease-in-out; /* Adds a hover effect */
 }
