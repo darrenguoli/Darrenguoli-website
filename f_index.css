@@ -67,16 +67,19 @@ body {
 
 /* IMAGE CONTAINER */
 .main-image-container {
-    display: flex;        /* Enables centering */
-    justify-content: center; /* Centers the image */
-    margin-top: 20px;     /* Adjust top spacing if needed */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    width: 100%; /* Ensures it spans the full available width */
+    margin-top: 20px; /* Adjust spacing as needed */
 }
+
 .main-image {
-    width: 50vw;         /* 50% of viewport width */
-    max-width: 60%;     /* Prevents overflow on small screens */
-    height: auto;        /* Maintains aspect ratio */
-    transition: opacity 0.3s ease-in-out; /* Adds a hover effect */
+    width: calc(100% - 40px); /* Adjust to fit within the layout */
+    max-width: 900px; /* Prevents it from getting too large on big screens */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
 }
+
 .main-image:hover {
     opacity: 0.8; /* Subtle effect when hovering */
 }
