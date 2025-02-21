@@ -104,6 +104,8 @@ body {
     white-space: nowrap;
     gap: 20px; /* Adds space between items */
     padding: 10px;
+    width: 100%;
+    height: 520px;
     scrollbar-width: thin; /* Customizes scrollbar for Firefox */
     scrollbar-color: #acadb8 #f5f5f5; /* Custom scrollbar color */
 }
@@ -119,10 +121,9 @@ body {
     flex-direction: column;
     align-items: flex-start; /* Aligns text with the image */
     flex: 0 0 auto; /* Prevents items from stretching */
-    width: 250px; /* Adjust this for image size */
 }
 .gallery-item-horizontal img {
-    width: 100%;
+    /* width: 145%; */
     height: auto; /* Maintains aspect ratio */
     display: block;
 }
