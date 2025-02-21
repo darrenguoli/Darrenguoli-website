@@ -80,16 +80,13 @@ body {
 }
 .gallery-image {
     width: 60%;                /* Adjust width as needed */
-    /* max-width: 600px;          Prevents image from becoming too large */
+    max-width: 600px;          
     height: auto;              /* Maintains the aspect ratio */
     display: block;
     transition: transform 0.3s ease-in-out;  /* Smooth hover zoom effect */
 }
-.gallery-image:hover {
-    transform: scale(1.05);
-}
 .gallery-description {
-    margin-top: 8px;           /* Space between image and text */
+    margin-top: 3px;           /* Space between image and text */
     font-size: 14px;           /* Adjust font size as needed */
     color: #4a4545;               /* Text color */
     font-style: italic;
