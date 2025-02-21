@@ -33,7 +33,7 @@ body {
 .name-container {
     display: block;
     font-size: 26px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     cursor: pointer;
     transition: color 0.3s ease;
 }
@@ -50,10 +50,10 @@ body {
 }
 .nav-container a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #222; /* Adjust to fit your theme */
+    letter-spacing: 2px;
+    color: #3e3838; /* Adjust to fit your theme */
     background: #f5f5f5;
     transition: all 0.3s ease-in-out;
     text-align: right;
@@ -103,11 +103,12 @@ body {
     overflow-x: auto; /* Enables horizontal scrolling */
     white-space: nowrap;
     gap: 20px; /* Adds space between items */
-    padding-right: 18.5px;
+    padding-right: 20px;
     width: 100%;
-    height: 1000px;
+    height: calc(100vh - 100px);
     scrollbar-width: thin; /* Customizes scrollbar for Firefox */
     scrollbar-color: #acadb8 #f5f5f5; /* Custom scrollbar color */
+    scroll-behavior: smooth;
 }
 .horizontal-gallery::-webkit-scrollbar {
     height: 8px; /* Adjusts scrollbar height */
@@ -123,8 +124,8 @@ body {
     flex: 0 0 auto; /* Prevents items from stretching */
 }
 .gallery-item-horizontal img {
-    max-width: 100%;
-    max-height: 1000px; /* Maintains aspect ratio */
+    max-height: 100%;
+    max-width: 1000px; /* Maintains aspect ratio */
     width: auto;
     /* display: block; */
 }
