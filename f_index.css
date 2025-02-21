@@ -10,29 +10,35 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 50px;
+    width: 100%;
 }
 
+/* NAME CONTAINER */
 .name-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.name-container a {
+    display: block; /* Ensures it behaves as a block element */
+    text-decoration: none;
+    color: inherit;
+}
+.name-container {
+    display: block;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.name-container span:hover {
+    color: #666;
 }
 
 .nav-container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}
-
-.name-container {
-    font-size: 26px;
-    letter-spacing: 1.5px;
-    cursor: pointer;
-    transition: color 0.3s ease;
-    background: none;
-    border: none;
-    padding: 0;
-    text-align: right;
 }
 
 .nav-container a {
@@ -65,8 +71,9 @@ body {
 }
 
 footer {
-    background-color: #070303;
+    background-color: #F7F7F0;
     color: rgb(133, 133, 133);
+    font-size: 10px;
     text-align: center;
     padding: 20px;
     position: static;
