@@ -98,7 +98,7 @@ body {
 }
 
 /* HORIZONTAL GALLERY */
-.horizontal-gallery-container {
+.horizontal-gallery {
     display: flex;
     overflow-x: auto; /* Enables horizontal scrolling */
     white-space: nowrap;
@@ -107,10 +107,10 @@ body {
     scrollbar-width: thin; /* Customizes scrollbar for Firefox */
     scrollbar-color: #acadb8 #f5f5f5; /* Custom scrollbar color */
 }
-.horizontal-gallery-container::-webkit-scrollbar {
+.horizontal-gallery::-webkit-scrollbar {
     height: 8px; /* Adjusts scrollbar height */
 }
-.horizontal-gallery-container::-webkit-scrollbar-thumb {
+.horizontal-gallery::-webkit-scrollbar-thumb {
     background-color: #888;
     border-radius: 4px;
 }
