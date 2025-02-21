@@ -53,13 +53,13 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #222; /* Adjust to fit your theme */
+    color: #262323; /* Adjust to fit your theme */
     background: #f5f5f5;
     transition: all 0.3s ease-in-out;
     text-align: right;
     max-width: 90%;
     display: block;
-    gap: 0px;
+    gap: 3px;
 }
 .nav-container a:hover {
     color: #fff;
