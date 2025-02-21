@@ -70,26 +70,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;       /* Center gallery items horizontally */
-    overflow-y: auto;          /* Enable vertical scrolling if needed */
-    max-height: 80vh;          /* Adjust height relative to the viewport */
-    padding: 10px;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
     gap: 20px;                 /* Space between gallery items */
 }
 .gallery-item {
-    text-align: center;        /* Center text and image within the item */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 900px; /* Prevents images from getting too large on big screens */
+    margin-bottom: 20px; /* Adds spacing between images */
 }
 .gallery-image {
-    width: 60%;                /* Adjust width as needed */
-    max-width: 450px;          
+    width: 100%;                /* Adjust width as needed */
     height: auto;              /* Maintains the aspect ratio */
     display: block;
-    align-content: center;
 }
 .gallery-description {
-    margin-top: 3px;           /* Space between image and text */
-    font-size: 14px;           /* Adjust font size as needed */
-    color: #4a4545;               /* Text color */
+    margin-top: 3px;  
+    text-align: left;         
+    font-size: 14px;         
+    color: #878181;       
     font-style: italic;
+    width: 100%;
 }
 
 
