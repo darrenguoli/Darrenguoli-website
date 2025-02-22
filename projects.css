@@ -107,6 +107,7 @@ body {
     white-space: nowrap;
     gap: 20px; /* Adds space between items */
     padding-right: 20px;
+    padding-top: 20px;
     width: 100%;
     height: calc(100vh - 250px);
     scrollbar-width: thin; /* Customizes scrollbar for Firefox */
