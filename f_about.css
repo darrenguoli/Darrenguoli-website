@@ -134,8 +134,6 @@ body {
     /* display: block; */
 }
 
-
-
 /* MAIN IMAGE CONTAINER */
 .main-image-container {
     display: flex;
@@ -157,24 +155,22 @@ body {
 .bio-cv-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 800px; /* Adjust width for readability */
+    align-items: left;
+    justify-content: left;
+    max-width: 1000px; /* Adjust width for readability */
     width: 90%; /* Adapts to screen size */
     margin: 50px auto; /* Centers the content */
     padding: 20px;
-    background-color: #f9f9f9; /* Light background for contrast */
     border-radius: 10px; /* Soft edges */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 .bio-cv-container h1 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     margin-bottom: 10px;
     text-align: center;
 }
 .bio-cv-container p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.6;
     text-align: justify;
     color: #333;
