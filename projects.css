@@ -104,13 +104,15 @@ body {
 .horizontal-gallery {
     display: flex;
     overflow-x: auto; /* Enables horizontal scrolling */
+    overflow-y: visible;
     white-space: normal;
     gap: 25px; /* Adds space between items */
     /* padding-right: 20px;
     padding-top: 20px; */
     padding: 20px 0;
     width: 100%;
-    height: calc(100vh - 250px);
+    min-height: calc(100vh - 250px);
+    max-height: calc(100vh - 150px); 
     scrollbar-width: thin; /* Customizes scrollbar for Firefox */
     scrollbar-color: #acadb8 #f5f5f5; /* Custom scrollbar color */
     scroll-behavior: smooth;
@@ -130,10 +132,11 @@ body {
     flex: 0 0 auto;
     white-space: normal; /* Add this to override parent's nowrap */
     width: auto; /* Add a width constraint for the caption */
+    height: auto;
     max-width: 1000px; /* Match your image max-width */
 }
 .gallery-item-horizontal img {
-    max-height: 100%;
+    max-height: calc(100vh - 300px);
     max-width: 1000px; /* Maintains aspect ratio */
     width: auto;
     object-fit: contain;
