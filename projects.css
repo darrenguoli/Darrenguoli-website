@@ -88,7 +88,7 @@ body {
     height: auto;              /* Maintains the aspect ratio */
     display: block;
 }
-.gallery-description {
+.gallery-description-vert {
     margin-top: 3px;  
     padding-bottom: 15px;
     text-align: left;         
@@ -135,6 +135,17 @@ body {
     width: auto;
     object-fit: contain;
     /* display: block; */
+}
+.gallery-description {
+    margin-top: 3px;  
+    padding-bottom: 15px;
+    text-align: left;         
+    font-size: 14px;         
+    color: #878181;       
+    font-style: italic;
+    width: auto;
+    word-wrap: break-word; /* Allows text to break into a new line */
+    white-space: normal; /* Enables text wrapping */
 }
 
 
