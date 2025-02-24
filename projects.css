@@ -133,7 +133,7 @@ body {
     white-space: normal; /* Add this to override parent's nowrap */
     width: auto; /* Add a width constraint for the caption */
     height: auto;
-    max-width: 1000px; /* Match your image max-width */
+    max-width: 500px; /* Match your image max-width */
 }
 .gallery-item-horizontal img {
     max-height: calc(100vh - 300px);
@@ -149,7 +149,8 @@ body {
     font-size: 14px;         
     color: #878181;       
     font-style: italic;
-    width: 100%; /* Change from auto to 100% */
+    width: 100%; 
+    max-width: 100%;
     word-wrap: break-word;
     white-space: normal;
 }
