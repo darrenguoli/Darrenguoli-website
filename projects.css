@@ -137,7 +137,7 @@ body {
 }
 .gallery-item-horizontal img {
     max-height: calc(100vh - 300px);
-    max-width: 1000px; /* Maintains aspect ratio */
+    max-width: 500px; /* Maintains aspect ratio */
     width: auto;
     object-fit: contain;
     /* display: block; */
