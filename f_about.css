@@ -181,6 +181,7 @@ body {
     width: 120px; /* Adjust as needed */
     height: auto;
     border-radius: 8px; /* Optional: Rounds the image corners */
+    justify-self: flex-end;
 }
 @media (max-width: 600px) {
     .bio-cv-container {
