@@ -137,7 +137,7 @@ body {
 }
 .gallery-item-horizontal img {
     max-height: calc(100vh - 300px);
-    max-width: 500px; /* Maintains aspect ratio */
+    max-width: 650px; /* Maintains aspect ratio */
     padding-right: 30px;
     margin-right: 30px;
     width: auto;
@@ -152,7 +152,7 @@ body {
     color: #878181;       
     font-style: italic;
     width: 100%; 
-    max-width: 500px;
+    max-width: 650px;
     word-wrap: break-word;
     white-space: normal;
 }
