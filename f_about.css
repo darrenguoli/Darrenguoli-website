@@ -160,8 +160,8 @@ body {
     margin: 50px auto; /* Centers the content */
     padding: 20px;
     border-radius: 10px; /* Soft edges */
-    justify-content: space-between
-
+    justify-content: space-between;
+    line-height: 1.5;
 }
 .bio-cv-container h1 {
     font-size: 14px;
