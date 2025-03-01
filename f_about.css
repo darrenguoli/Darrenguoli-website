@@ -178,7 +178,7 @@ body {
     margin-right: 20px;
 }
 .bio-image {
-    width: 120px; /* Adjust as needed */
+    width: 380px; /* Adjust as needed */
     height: auto;
     border-radius: 8px; /* Optional: Rounds the image corners */
     justify-self: flex-end;
