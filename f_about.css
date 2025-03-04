@@ -60,6 +60,8 @@ body {
     max-width: 90%;
     display: block;
     gap: 0px;
+    text-decoration: none;
+    color: inherit;
 }
 .nav-container a:hover {
     color: #fff;
