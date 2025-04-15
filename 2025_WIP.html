@@ -73,6 +73,14 @@
         <div class="gallery-item-horizontal">
             <img src="Images/2025_new_works/dissolve_right_smaller.jpeg" alt="Project Image 3">
         </div>  
+        <div class="gallery-item-horizontal">
+            <video class="gallery-video" muted loop preload="none">
+              <source src="Images/2025_new_works/vibration_test.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <div class="gallery-description">Video caption here</div>
+          </div>
+          
     </div>
     <!-- canyon dissolving, in torque -->
     <div class="horizontal-gallery"> 
@@ -101,5 +109,17 @@
             <img src="Images/2025_new_works/fleeting_left.jpeg" alt="Project Image 2">
         </div>  
     </div>
+    <script>
+        document.querySelectorAll('.gallery-video').forEach(video => {
+          video.addEventListener('mouseenter', () => {
+            video.play();
+          });
+          video.addEventListener('mouseleave', () => {
+            video.pause();
+            video.currentTime = 0; // optional: resets to beginning
+          });
+        });
+      </script>
+      
 </body>
 </html>

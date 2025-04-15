@@ -157,6 +157,21 @@ body {
     white-space: normal;
 }
 
+.gallery-item-horizontal video.gallery-video {
+    max-height: calc(100vh - 300px);
+    max-width: 600px;
+    padding-right: 30px;
+    margin-right: 30px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item-horizontal video.gallery-video:hover {
+    opacity: 0.9;
+}
 
 
 /* MAIN IMAGE CONTAINER */
