@@ -54,7 +54,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3e3838; /* Adjust to fit your theme */
-    background: #f4f4f4;
+    background: #ffffff;
     transition: all 0.3s ease-in-out;
     text-align: right;
     max-width: 90%;
@@ -62,7 +62,7 @@ body {
     gap: 0px;
 }
 .nav-container a:hover {
-    color: #fff;
+    color: #f4f4f4;
 }
 
 /* VERTICAL GALLERY */
