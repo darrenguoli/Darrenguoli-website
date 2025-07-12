@@ -38,7 +38,7 @@ body {
     transition: color 0.3s ease;
 }
 .name-container span:hover {
-    color: #666;
+    color: #ffffff;
 }
 
 /* NAV CONTAINER */
